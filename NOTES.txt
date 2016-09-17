@@ -2,4 +2,6 @@ Notes on 2ncc
 
 DONE Make Nav black background, not transparent
 DONE Reduce Nav padding to 10px from 25px
-In bootstrapp css, change carousel right/left colors
+DONE In bootstrapp css, change carousel right/left colors
+
+Design carousel mobile first, change height and screen coverage

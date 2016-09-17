@@ -1,10 +1,78 @@
 header {
   background-color:grey;
-  height: 100vh;
+  height: 50vh;
 }
 
 #myCarousel{
-  margin-top: 20vh;
-  height: 30em;
+  margin-top: 16vh;
+  /*height: 12.5vh;*/
+}
+
+@media (min-width: 768px) {
+  header {
+    background-color:grey;
+    height: 100vh;
+  }
+  
+  #myCarousel{
+    margin-top: 13vh;
+    /*height: 12.5vh;*/
+  }
+
+}
+
+/*Hide list buttons on bottom of carousel when in mobile*/
+.carousel-indicators li{
+  display:none;
+}
+
+@media (min-width: 768px) {
+  .carousel-indicators li{
+    display: inline-block;
+  }
+}
+
+.before-after h6 {
+      margin: 0;
+      width: 50%;
+      background: rgba(0, 0, 0, .7);
+      display: block;
+      float: left;
+      padding: 12px 0;
+      font-weight: 400;
+      font-size: 1em;
+      text-align: center;
+      color: #fff
+  }
+  
+  .before-after h6.before {
+      border-bottom-left-radius: 6px
+  }
+  
+  .before-after h6.after {
+      border-bottom-right-radius: 6px
+  }
+
+@media (min-width: 768px) {
+  .before-after h6 {
+      margin: 0;
+      width: 50%;
+      background: rgba(0, 0, 0, .7);
+      display: block;
+      float: left;
+      padding: 20px 0;
+      font-weight: 400;
+      font-size: 2em;
+      text-align: center;
+      color: #fff
+  }
+  
+  .before-after h6.before {
+      border-bottom-left-radius: 6px
+  }
+  
+  .before-after h6.after {
+      border-bottom-right-radius: 6px
+  }
 }
 
