@@ -1,5 +1,5 @@
 Notes on 2ncc
 
-Make Nav black background, not transparent
-Reduce Nav padding to 10px from 25px
+DONE Make Nav black background, not transparent
+DONE Reduce Nav padding to 10px from 25px
 In bootstrapp css, change carousel right/left colors
