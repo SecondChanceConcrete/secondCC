@@ -8,6 +8,9 @@ header {
   /*height: 12.5vh;*/
 }
 
+.carousel-inner > .item > a > img {
+  height: 25vh;
+}
 @media (min-width: 768px) {
   header {
     background-color:grey;
@@ -76,3 +79,25 @@ header {
   }
 }
 
+.serviceImages{
+  width:100%;
+}
+
+.services {
+  margin-bottom:2%;
+}
+
+#sierraStone{
+  background-color:grey;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+/*.showMorePics{*/
+/*  display:none;*/
+/*}*/
