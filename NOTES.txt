@@ -5,3 +5,4 @@ DONE Reduce Nav padding to 10px from 25px
 DONE In bootstrapp css, change carousel right/left colors
 
 Design carousel mobile first, change height and screen coverage
+Make product offering pictures (sierra stone, rubber stone, enduraflake) mid level responsive: The pics of colors are too big at ipad level
