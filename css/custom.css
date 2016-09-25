@@ -12,20 +12,24 @@ header {
 }
 
 #myCarousel{
-    margin-top: 25%;
-    margin-bottom: 15%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .carouselPic{
   height:auto;
 }
 
-/*@media (min-width: 768px) {*/
-/*  #myCarousel{*/
-/*    margin-top: none;*/
-    /*height: 12.5vh;*/
-/*  }*/
-/*}*/
+@media (min-width: 370px) {
+  header {
+    height: 100%;
+  }
+  
+  #myCarousel{
+    margin-top: 10vh;
+  }
+  
+}
 
 .carousel-inner > .item > a > img {
   height: 25vh;
@@ -33,12 +37,11 @@ header {
 @media (min-width: 768px) {
   header {
     background-color:grey;
-    height: 100vh;
+    height: 100%;
   }
   
   #myCarousel{
-    margin-top: 13vh;
-    
+    margin-top: 12vh;
   }
 
 }
