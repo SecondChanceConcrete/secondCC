@@ -1,12 +1,31 @@
 header {
   background-color:grey;
-  height: 50vh;
+  /*height: 50vh;*/
+}
+
+#titleSCCMobile{
+  margin: auto;
+}
+
+#titleSCCDesktop{
+  margin: auto;
 }
 
 #myCarousel{
-  margin-top: 16vh;
-  /*height: 12.5vh;*/
+    margin-top: 25%;
+    margin-bottom: 15%;
 }
+
+.carouselPic{
+  height:auto;
+}
+
+/*@media (min-width: 768px) {*/
+/*  #myCarousel{*/
+/*    margin-top: none;*/
+    /*height: 12.5vh;*/
+/*  }*/
+/*}*/
 
 .carousel-inner > .item > a > img {
   height: 25vh;
@@ -19,7 +38,7 @@ header {
   
   #myCarousel{
     margin-top: 13vh;
-    /*height: 12.5vh;*/
+    
   }
 
 }
