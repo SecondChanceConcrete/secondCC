@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: black;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: black
 }
 h1,
 h2,
@@ -49,9 +49,9 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
-.bg-light-gray {
-  background-color: #eeeeee;
-}
+/*.bg-light-gray {*/
+/*  background-color: #eeeeee;*/
+/*}*/
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,

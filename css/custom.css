@@ -1,6 +1,5 @@
 header {
   background-color:grey;
-  /*height: 50vh;*/
 }
 
 #titleSCCMobile{
@@ -11,6 +10,7 @@ header {
   margin: auto;
 }
 
+/*Set margins for carousel in mobile view*/
 #myCarousel{
     margin-top: 10vh;
     margin-bottom: 5vh;
@@ -19,7 +19,7 @@ header {
 .carouselPic{
   height:auto;
 }
-
+/*Set margins for carousel in tabet view and adjust header size*/
 @media (min-width: 370px) {
   header {
     height: 100%;
@@ -31,9 +31,7 @@ header {
   
 }
 
-.carousel-inner > .item > a > img {
-  height: 25vh;
-}
+/*Set margins for carousel in desktop view and adjust header size*/
 @media (min-width: 768px) {
   header {
     background-color:grey;
@@ -51,12 +49,14 @@ header {
   display:none;
 }
 
+/*Display list buttons on bottom of carousel in desktop*/
 @media (min-width: 768px) {
   .carousel-indicators li{
     display: inline-block;
   }
 }
 
+/*Adjust Before After at bottom of carousel to fit mobile*/
 .before-after h6 {
       margin: 0;
       width: 50%;
@@ -78,6 +78,7 @@ header {
       border-bottom-right-radius: 6px
   }
 
+/*Enlarge Before After at bottom of carousel when in desktop view*/
 @media (min-width: 768px) {
   .before-after h6 {
       margin: 0;
@@ -101,6 +102,7 @@ header {
   }
 }
 
+/*Services Section*/
 .serviceImages{
   max-width:100%;
 }
@@ -109,6 +111,7 @@ header {
   margin-bottom:2%;
 }
 
+/*Sierra Stone section*/
 #sierraStone{
   background-color:grey;
 }
@@ -118,13 +121,56 @@ header {
 }
 .morelink {
     display: block;
+    font-weight: bold;
 }
 
+/*EnduraFlake section*/
+#enduraFlake{
+  background-color: grey;
+}
 
-
+/*Portfolio*/
+/*Standardize picture size in desktop view*/
 @media (min-width: 768px) {
   .portfolioPic{
     max-width:100%;
     height:290px;
   }
 }
+
+/*Contact Form Text Area*/
+/*Make the placholder text standout*/
+textarea::-webkit-input-placeholder {
+color: grey !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: grey !important;
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: grey !important;
+}
+ 
+textarea:-ms-input-placeholder {
+color: grey !important;
+}
+
+
+input::-webkit-input-placeholder {
+color: grey !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: grey !important;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: grey !important;
+}
+ 
+input:-ms-input-placeholder {
+color: grey !important;
+}
+
+/**/

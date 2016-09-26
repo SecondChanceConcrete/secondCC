@@ -80,7 +80,7 @@
     <header>
         <div class = "container">
            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-             <h6 id ="titleSCCMobile">Second Chance Concrete</h6>
+             <h6 id ="titleSCCMobile"><i>Fixing Concrete All Over Texas!!</i></h6>
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -157,21 +157,27 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <a href = "#sierraStone">
+                  <div class="col-md-4">
                     <img class = "serviceImages" src = "img/services/sierraStone.png">
                     <h4 class="service-heading">Sierra Stone</h4>
                     <p class="text-muted">The manufacturing process of Sierra Stone uses natural stone and industrial-grade epoxies. The finished product is chemical resistant, easy to clean, and more durable than the concrete it covers.</p>
-                </div>
-                <div class="col-md-4">
+                  </div>
+                </a>
+                <a href = "#rubberStone">
+                  <div class="col-md-4">
                     <img class = "serviceImages" src = "img/services/IMG_4889.jpg">
                     <h4 class="service-heading">Rubber Stone</h4>
                     <p class="text-muted">Rubber Stone offers everything you would expect of Sierra Stone—Durability, Versatility, and Beauty. Where it differs is in its texture—Rubber Stone is flexible and has a softer touch.</p>
-                </div>
-                <div class="col-md-4">
+                  </div>
+                 </a>
+                <a href = "#enduraFlake">
+                  <div class="col-md-4">
                     <img class = "serviceImages" src = "img/services/enduraFlake.png">
                     <h4 class="service-heading">EnduraFlake Floors</h4>
                     <p class="text-muted">EnduraFlake Floors are available in four standard colour blends. These colours can be used to transform run of the mill concrete floors into showroom quality statements.</p>
-                </div>
+                  </div>
+                </a>
             </div>
         </div>
     </section>
@@ -1036,17 +1042,17 @@
     
     var viewportSize = $( window ).width();
     if (viewportSize>767){
-      $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'>Second Chance Concrete</h2>")
+      $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'><i>Fixing Concrete All Over Texas!!</i></h2>")
     }
     
     $(window).resize(function(){
       console.log($(window).width())
       viewportSize = $(window).width()
       if (viewportSize>499){
-        $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'>Second Chance Concrete</h2>")
+        $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'><i>Fixing Concrete All Over Texas!!</i></h2>")
       }
       else{
-        $("#titleSCCDesktop").replaceWith("<h6 id = 'titleSCCMobile'>Second Chance Concrete</h6>")
+        $("#titleSCCDesktop").replaceWith("<h6 id = 'titleSCCMobile'><i>Fixing Concrete All Over Texas!!</i></h6>")
       }
     })
     
