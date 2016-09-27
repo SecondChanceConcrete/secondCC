@@ -141,6 +141,14 @@ header {
 }
 
 /*Contact Form Text Area*/
+.contactSubHeading{
+  color:white;
+}
+
+.phoneNumber{
+  color:rgba(255, 0, 0, 0.75);
+}
+
 /*Make the placholder text standout*/
 textarea::-webkit-input-placeholder {
 color: grey !important;
