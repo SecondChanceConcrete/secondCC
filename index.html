@@ -145,6 +145,7 @@
               </a>
             </div>
         </div>
+        <h6 id="headerQuoteMobile"><i>"We have a vision for your concrete that doesn’t include demolition or pouring new cement. Second Chance Concrete offers resurfacing products & solutions for virtually every imaginable context!"</i></h6>
     </header>
 
     <!-- Services Section -->
@@ -174,8 +175,8 @@
                 <a href = "#enduraFlake">
                   <div class="col-md-3">
                     <img class = "serviceImages" src = "img/services/enduraFlake.png">
-                    <h4 class="service-heading">EduraFlake Floors</h4>
-                    <p class="text-muted">EduraFlake Floors are available in four standard colour blends. These colours can be used to transform run of the mill concrete floors into showroom quality statements.</p>
+                    <h4 class="service-heading">EnduraFlake Floors</h4>
+                    <p class="text-muted">EnduraFlake Floors are available in four standard colour blends. These colours can be used to transform run of the mill concrete floors into showroom quality statements.</p>
                   </div>
                 </a>
                 <a href = "#acidStain">
@@ -406,14 +407,14 @@
         <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center ssHeader">
-                <h2 class="section-heading">EduraFlake</h2>
+                <h2 class="section-heading">EnduraFlake</h2>
                   <span class="moreDescription">
-                    EduraFlake is perfect for garage, basement, workshop, and commercial space concrete floors. This decorative concrete coating works extremely well for industrial high traffic areas that require a smooth-finish working surface. This product is ideal in airplane hangars and warehouses where forklifts and other heavy vehicles transit regularly. EduraFlake can withstand the same extreme stress as the concrete beneath it.
+                    EnduraFlake is perfect for garage, basement, workshop, and commercial space concrete floors. This decorative concrete coating works extremely well for industrial high traffic areas that require a smooth-finish working surface. This product is ideal in airplane hangars and warehouses where forklifts and other heavy vehicles transit regularly. EnduraFlake can withstand the same extreme stress as the concrete beneath it.
                     <div><br>
-                      EduraFlake is designed for areas that are frequently exposed to spills. The high-solids content of this product makes it chemical and stain resistant and easy to clean. Routine maintenance involves a quick rinse with water and a non-filming detergent. When this flooring is heavily soiled with oil, gas, grease or even paint, it can be thoroughly cleaned with a mop or carwash brush, and mild solvents such as paint thinner or WD-40.
+                      EnduraFlake is designed for areas that are frequently exposed to spills. The high-solids content of this product makes it chemical and stain resistant and easy to clean. Routine maintenance involves a quick rinse with water and a non-filming detergent. When this flooring is heavily soiled with oil, gas, grease or even paint, it can be thoroughly cleaned with a mop or carwash brush, and mild solvents such as paint thinner or WD-40.
                       <br>
                       <br>
-                      While this product has a beautiful finish of its own, EduraFlake can also be polished to a high-gloss showroom finish with the application of wax.
+                      While this product has a beautiful finish of its own, EnduraFlake can also be polished to a high-gloss showroom finish with the application of wax.
                     </div>
                   </span>
                 <br><br>
@@ -581,7 +582,7 @@
                         <img src="img/portfolio/enduraFlake/enduraIndustrial.png" class="img-responsive portfolioPic" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>EduraFlake</h4>
+                        <h4>EnduraFlake</h4>
                         <p class="text-muted">Perfect for Industrial, Commercial,and Residential Applications!</p>
                     </div>
                 </div>
@@ -766,7 +767,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>EduraFlake</h2>
+                                <h2>EnduraFlake</h2>
                                 <p class="item-intro text-muted">A durable, stain resistant, colourized and relatively smooth surface.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/enduraFlake/enduraInterior.png" alt="">
                                 <p class="item-intro text-muted">Office</p>
@@ -956,6 +957,7 @@
     var viewportSize = $( window ).width();
     if (viewportSize>767){
       $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'><i>Fixing Concrete All Over Texas! Call 512-779-0040 for Quote</i></h2>")
+      $("#headerQuoteMobile").replaceWith('<h3 id="headerQuoteDesktop"><i>"We have a vision for your concrete that doesn’t include demolition or pouring new cement. Second Chance Concrete offers resurfacing products & solutions for virtually every imaginable context!"</i></h3>')
     }
     
     $(window).resize(function(){
@@ -963,9 +965,11 @@
       viewportSize = $(window).width()
       if (viewportSize>499){
         $("#titleSCCMobile").replaceWith("<h2 id = 'titleSCCDesktop'><i>Fixing Concrete All Over Texas! Call 512-779-0040 for Quote</i></h2>")
+        $("#headerQuoteMobile").replaceWith('<h3 id="headerQuoteDesktop"><i>"We have a vision for your concrete that doesn’t include demolition or pouring new cement. Second Chance Concrete offers resurfacing products & solutions for virtually every imaginable context!"</i></h3>')
       }
       else{
         $("#titleSCCDesktop").replaceWith("<h6 id = 'titleSCCMobile'><i>Fixing Concrete All Over Texas! Call 512-779-0040 for Quote</i></h6>")
+        $("#headerQuoteDesktop").replaceWith('<h6 id="headerQuoteMobile"><i>"We have a vision for your concrete that doesn’t include demolition or pouring new cement. Second Chance Concrete offers resurfacing products & solutions for virtually every imaginable context!"</i></h6>')
       }
     })
     

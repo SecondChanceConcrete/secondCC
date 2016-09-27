@@ -15,7 +15,7 @@ header {
 /*Set margins for carousel in mobile view*/
 #myCarousel{
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 0;
 }
 
 .carouselPic{
@@ -29,6 +29,7 @@ header {
   
   #myCarousel{
     margin-top: 10vh;
+    margin-bottom:0;
   }
   
 }
@@ -42,6 +43,7 @@ header {
   
   #myCarousel{
     margin-top: 12vh;
+    margin-bottom:0;
   }
 
 }
